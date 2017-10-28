@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        new QuizHistory().myFun();
         System.out.println("podaj m");
         Scanner scanner = new Scanner(System.in);
         double m = scanner.nextDouble();
