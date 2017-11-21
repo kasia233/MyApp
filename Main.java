@@ -5,16 +5,28 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        new QuizHistory().myFun();
-        System.out.println("podaj m");
-        Scanner scanner = new Scanner(System.in);
-        double m = scanner.nextDouble();
-        System.out.println("podaj v");
-        double v = scanner.nextDouble();
-        System.out.println("podaj r");
-        double r = scanner.nextDouble();
-        double wynik = m*v*v/r;
-        System.out.println("siła dośrodkowa wynosi " + wynik);
 
+
+
+    Scanner odczyt = new Scanner(System.in);
+    int zegar;
+
+    System.out.println("POdaj czas do wybuchu bomby: ");
+    zegar = odczyt.nextInt();
+
+    while(zegar>0){
+
+        System.out.println("Bomba wybuchnie za" + zegar);
+        zegar--;
     }
+    System.out.println("BUM SZAKALAKA!");
+   }
+
+
+
+
+
+
+
+
 }
