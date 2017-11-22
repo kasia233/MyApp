@@ -20,7 +20,19 @@ public class Main {
         zegar--;
     }
     System.out.println("BUM SZAKALAKA!");
+
    }
+    {
+   Scanner odczyt = new Scanner(System.in);
+    int zegar;
+    System.out.println("Z kim masz bazy danych: ");
+    zegar = odczyt.nextInt();
+    while(zegar>0) {
+        System.out.println("nie zdasz" + zegar);
+        zegar--;
+    }
+    System.out.println("hahahahaha dwa");
+    }
 
 
 
